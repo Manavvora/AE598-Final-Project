@@ -1,0 +1,57 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>SequentialReconstructionEngine SFM report.</title>
+</head>
+<h1>SequentialSfMReconstructionEngine</h1>
+<hr>Dataset info:Views count: 12<br><h1>Essential Matrix.</h1>
+-------------------------------<br>-- Robust Essential matrix: <4,9> images: 20210407T033338S478_map_iofL2b.png,20210407T033411S069_map_iofL2v.png<br>-- Threshold: 1<br>-- Resection status: OK<br>-- Nb points used for robust Essential matrix estimation: 110<br>-- Nb points validated by robust estimation: 110<br>-- % points validated: 1<br>-------------------------------<br><h2>Residual of the robust estimation (Initial triangulation). Thresholded at: 1</h2>
+<h2>Histogram of residuals</h2>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00105,0.02620,0.05134,0.07649,0.10164,0.12678,0.15193,0.17707,0.20222,0.22736,];
+var data1= [102.00000,105.00000,84.00000,62.00000,42.00000,17.00000,16.00000,8.00000,2.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[1.00000,0.00000], {fixed:true});
+var p3 = board.create('point',[1.00000,102.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.04421,125.80000,0.27262,-19.80000]);
+</script>
+<hr><h1>Resection of Image index: <8> image: 20210407T033404S923_map_iofL2b.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <8> image: 20210407T033404S923_map_iofL2b.png<br>-- Threshold: 0.585746<br>-- Resection status: OK<br>-- Nb points used for Resection: 99<br>-- Nb points validated by robust estimation: 99<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <5> image: 20210407T033344S085_map_iofL2v.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <5> image: 20210407T033344S085_map_iofL2v.png<br>-- Threshold: 2.08321<br>-- Resection status: OK<br>-- Nb points used for Resection: 650<br>-- Nb points validated by robust estimation: 650<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <6> image: 20210407T033350S132_map_iofL2w.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <6> image: 20210407T033350S132_map_iofL2w.png<br>-- Threshold: 2.77285<br>-- Resection status: OK<br>-- Nb points used for Resection: 1592<br>-- Nb points validated by robust estimation: 1588<br>-- % points validated: 0.997487<br>-------------------------------<br><h1>Resection of Image index: <7> image: 20210407T033355S789_map_iofL2x.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <7> image: 20210407T033355S789_map_iofL2x.png<br>-- Threshold: 2.1015<br>-- Resection status: OK<br>-- Nb points used for Resection: 1231<br>-- Nb points validated by robust estimation: 1231<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <3> image: 20210407T033329S319_map_iofL2x.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <3> image: 20210407T033329S319_map_iofL2x.png<br>-- Threshold: 1.86187<br>-- Resection status: OK<br>-- Nb points used for Resection: 586<br>-- Nb points validated by robust estimation: 586<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <10> image: 20210407T033416S107_map_iofL2w.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <10> image: 20210407T033416S107_map_iofL2w.png<br>-- Threshold: 1.51435<br>-- Resection status: OK<br>-- Nb points used for Resection: 475<br>-- Nb points validated by robust estimation: 475<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <2> image: 20210407T033324S220_map_iofL2w.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <2> image: 20210407T033324S220_map_iofL2w.png<br>-- Threshold: 2.00739<br>-- Resection status: OK<br>-- Nb points used for Resection: 922<br>-- Nb points validated by robust estimation: 922<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <1> image: 20210407T033318S125_map_iofL2v.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <1> image: 20210407T033318S125_map_iofL2v.png<br>-- Threshold: 3.86834<br>-- Resection status: OK<br>-- Nb points used for Resection: 1116<br>-- Nb points validated by robust estimation: 1116<br>-- % points validated: 1<br>-------------------------------<br><h1>Resection of Image index: <0> image: 20210407T033312S583_map_iofL2b.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <0> image: 20210407T033312S583_map_iofL2b.png<br>-- Threshold: 3.06504<br>-- Resection status: OK<br>-- Nb points used for Resection: 1031<br>-- Nb points validated by robust estimation: 1030<br>-- % points validated: 0.99903<br>-------------------------------<br><h1>Resection of Image index: <11> image: 20210407T033422S225_map_iofL2x.png<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <11> image: 20210407T033422S225_map_iofL2x.png<br>-- Threshold: 1.51963<br>-- Resection status: OK<br>-- Nb points used for Resection: 337<br>-- Nb points validated by robust estimation: 337<br>-- % points validated: 1<br>-------------------------------<br><hr><h1>Structure from Motion process finished.</h1>
+-------------------------------<br>-- Structure from Motion (statistics):<br>-- #Camera calibrated: 12 from 12 input images.<br>-- #Tracks, #3D points: 4563<br>-------------------------------<br><h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.19215,0.38430,0.57645,0.76860,0.96075,1.15290,1.34505,1.53720,1.72935,];
+var data1= [27416.00000,5982.00000,1322.00000,385.00000,148.00000,67.00000,26.00000,17.00000,7.00000,5.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.34587,32898.20000,2.07521,-5477.20000]);
+</script>
+</html>
