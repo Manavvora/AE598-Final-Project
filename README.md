@@ -7,7 +7,7 @@ This repository contains the code and methodologies to perform 3D reconstruction
 The 3D reconstruction process in this project uses a set of 12 images captured by the MapCam camera mounted on the OSIRIS-REx spacecraft. These images were taken during the "Departure Flyby" mission phase and are stored in the `images` directory within this repository.
 
 ## Structure from Motion Implementations
-This repository includes three different Structure from Motion implementations to cater to various aspects of the 3D reconstruction process:
+This repository includes three different Structure from Motion implementations:
 
 ### 1. Incremental SfM
 To perform incremental Structure from Motion:
