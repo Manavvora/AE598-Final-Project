@@ -1,5 +1,4 @@
-# AE598 Final Project: Vision-based Spacecraft Trajectory Estimation: A Structure from
-Motion Approach
+# AE598 Final Project: Vision-based Spacecraft Trajectory Estimation: A Structure from Motion Approach
 
 ## Overview
 This repository contains the code and methodologies to perform 3D reconstruction of asteroid Bennu's surface, utilizing Structure from Motion (SfM) techniques. The primary goal is to reconstruct the asteroid's surface in three dimensions while simultaneously determining the camera/spacecraft's pose for navigation and mission planning purposes. This project specifically focuses on the OSIRIS-REx mission during which a spacecraft orbited and collected samples from asteroid Bennu.
